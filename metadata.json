@@ -1,0 +1,6 @@
+{
+  "name": "CRM Imobiliário Kanban",
+  "description": "CRM Kanban para imobiliárias com atualização de status em tempo real e integração ao Supabase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
