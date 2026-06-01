@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar';
 import KanbanBoard from './components/KanbanBoard';
 import SupabaseConfigModal from './components/SupabaseConfigModal';
 import DealModal from './components/DealModal';
+import HelpAgent from './components/HelpAgent';
 import { RealEstateDeal, DealStatus } from './types';
 import { 
   Building, Search, Filter, ShieldAlert, Coins, 
@@ -475,6 +476,9 @@ export default function App() {
         dealToEdit={dealToEdit}
         initialStatus={initialStatus}
       />
+
+      {/* AI Help Agent floating panel */}
+      <HelpAgent deals={deals} />
 
     </div>
   );
